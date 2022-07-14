@@ -93,14 +93,14 @@ export function NavBar() {
       label: "Ukumbi"
     },
 
-    // {
-    //   link: "ghghghgh",
-    //   label: "fgffgfg"
-    // },
-    // {
-    //   link: "ghghghgh",
-    //   label: "fgffgfg"
-    // }
+    {
+      link: "ghghghgh",
+      label: "fgffgfg"
+    },
+    {
+      link: "ghghghgh",
+      label: "fgffgfg"
+    }
 
   ]
   const [opened, toggleOpened] = useBooleanToggle(false);
